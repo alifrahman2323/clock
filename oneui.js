@@ -11,7 +11,7 @@ function clock() {
     var day = h >= 12 ? 'PM' : 'AM';
 
     h = h % 12;
-    h = h ? h : 12; // If the hour is 0, set it to 12
+    h = h ? h : 12; 
     h = h < 10 ? '0' + h : h;
     m = m < 10 ? '0' + m : m;
     s = s < 10 ? '0' + s : s;
